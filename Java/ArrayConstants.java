@@ -21,5 +21,6 @@ public class ArrayConstants {
 
     public static Double current_lat=null;
     public static Double current_lon=null;
+    //End of file
 
 }
