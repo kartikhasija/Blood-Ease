@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Submit_A_Query_Fragment">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary">
+
+            <EditText
+                android:id="@+id/subject_submit_a_query"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Subject"
+                android:textColorHint="@color/colorPrimary"
+                android:inputType="text"
+                android:textColor="@color/colorPrimary"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:id="@+id/message_submit_a_query"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:hint="@string/message"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimary"
+                android:gravity="start"
+                android:background="@drawable/feedback"
+                android:inputType="text"
+                />
+
+        <Button
+            android:id="@+id/submit_submit_a_query"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/submit"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

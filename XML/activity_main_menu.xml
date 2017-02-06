@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="in.kartikhasija.bloodease.Main_Menu">
+
+        <include
+            layout="@layout/toolbsr"
+            ></include>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/container"
+            android:layout_below="@+id/toolbar"
+            >
+        </FrameLayout>
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:fab_addButtonSize="normal"
+            app:fab_addButtonPlusIconColor="#ffffff"
+            app:fab_addButtonColorNormal="@color/colorPrimary"
+            app:fab_labelsPosition="left"
+            app:fab_addButtonColorPressed="#ffffff"
+            app:fab_labelStyle="@style/FloatBackground"
+            >
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/colorAccent"
+                app:fab_title="Find Donar"
+                app:fab_colorPressed="#ffffff"
+                app:fab_size="normal"
+                app:fab_icon="@drawable/ic_launcher"
+                android:id="@+id/find_donor_main_menu"
+                />
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/donate_blood_now_main_menu"
+                app:fab_colorNormal="@color/colorAccent"
+                app:fab_title="Donate blood now"
+                app:fab_colorPressed="#ffffff"
+                app:fab_size="normal"
+                app:fab_icon="@drawable/ic_launcher"
+                />
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/colorAccent"
+                app:fab_title="Need blood ragular"
+                app:fab_colorPressed="#ffffff"
+                app:fab_size="normal"
+                app:fab_icon="@drawable/ic_launcher"
+                android:id="@+id/need_blood_regular_main_menu"
+                />
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigation_view"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header_navigation"
+        app:menu="@menu/navigation_menu"
+        >
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
+
+
+<!--
+-->
