@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Created by Kartik on 23-Jun-16.
  */
 public class ArrayConstants {
-
+    // Changes made by dif. user...
     public static ArrayList<String> user_id=new ArrayList<>();
     public static ArrayList<String> first_name=new ArrayList<>();
     public static ArrayList<String> email_id=new ArrayList<>();
