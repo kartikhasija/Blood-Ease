@@ -18,7 +18,7 @@ public class ArrayConstants {
     public static ArrayList<String> can_donate=new ArrayList<>();
     
     /////////////////////////////cuurent location/////////////////////////////////
-   
+    //test1
     public static Double current_lat=null;
     public static Double current_lon=null;
     //End of file
