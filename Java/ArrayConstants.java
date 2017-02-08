@@ -16,7 +16,7 @@ public class ArrayConstants {
     public static ArrayList<String> current_location_lat=new ArrayList<>();
     public static ArrayList<String> current_location_long=new ArrayList<>();
     public static ArrayList<String> can_donate=new ArrayList<>();
-    //Comment made from branch Test2
+    //Comment made from branch Test1
     /////////////////////////////cuurent location/////////////////////////////////
 
     public static Double current_lat=null;
