@@ -22,7 +22,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
  * Created by Kartik on 27-Jun-16.
  */
 public class Contact_Us_Fragment extends Fragment implements  OnMapReadyCallback, View.OnClickListener {
-
+	// Commented
     SupportMapFragment supportMapFragment;
     TextView textView_call,textView_email_id;
 
