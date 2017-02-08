@@ -19,6 +19,7 @@ public class ArrayConstants {
     
     /////////////////////////////cuurent location/////////////////////////////////
     //test1
+    //test2
     public static Double current_lat=null;
     public static Double current_lon=null;
     //End of file
