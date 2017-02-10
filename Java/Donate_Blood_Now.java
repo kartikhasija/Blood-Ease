@@ -19,4 +19,8 @@ public class Donate_Blood_Now extends Fragment{
         return view;
     }
 }
+<<<<<<< HEAD
 //blood donated
+=======
+//JAva file
+>>>>>>> test2
